@@ -1,4 +1,6 @@
-# Question
+# Print All Primes Till N
+
+## Question
 
 ```markdown
 1. You've to print all prime numbers between a range.

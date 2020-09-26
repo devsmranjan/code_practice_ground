@@ -1,4 +1,6 @@
-# Question
+# Is A Number Prime
+
+## Question
 
 ```markdown
 1. You've to check whether a given number is prime or not.
