@@ -7,10 +7,12 @@
 
 ## Input Format
 
+``` string
 A number t
 A number n
 A number n
 .. t number of times
+```
 
 ## Output Format
 
