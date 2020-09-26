@@ -7,7 +7,7 @@
 
 ## Input Format
 
-```string
+```markdown
 A number t
 A number n
 A number n
@@ -25,22 +25,28 @@ not prime
 
 ## Constraints
 
+```markdown
 1 <= t <= 10000
 2 <= n < 10^9
+```
 
 ## Sample Input
 
+```markdown
 5
 19
 21
 33
 37
 121
+```
 
 ## Sample Output
 
+```markdown
 prime
 not prime
 not prime
 prime
 not prime
+```
