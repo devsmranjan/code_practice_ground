@@ -7,7 +7,7 @@
 
 ## Input Format
 
-``` string
+```string
 A number t
 A number n
 A number n
@@ -16,10 +16,12 @@ A number n
 
 ## Output Format
 
+```markdown
 prime
 not prime
 not prime
 .. t number of times
+```
 
 ## Constraints
 
