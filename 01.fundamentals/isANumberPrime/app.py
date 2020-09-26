@@ -5,9 +5,8 @@ def checkPrime(n):
     while d * d <= n:
         if n % d == 0:
             return "not prime"
-
         d += 1
-
+        
     return "prime"
 
 
