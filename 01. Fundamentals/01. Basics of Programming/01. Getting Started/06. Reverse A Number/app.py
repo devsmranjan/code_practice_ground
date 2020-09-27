@@ -4,9 +4,9 @@ def getArrayOfDigits(n):
     allDigits = []
 
     while current_number > 9:
-        reminder = int(current_number % 10)
+        reminder = int(current_number / 10)
         allDigits.append(reminder)
-        current_number = current_number / 10
+        current_number = current_number % 10
 
     allDigits.append(int(current_number))
 
