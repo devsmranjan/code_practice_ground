@@ -1,17 +1,12 @@
 def getArrayOfDigits(n):
-    current_number = n
-
     allDigits = []
 
-    while current_number > 9:
-        reminder = int(current_number / 10)
+    while n != 0:
+        reminder = int(n % 10)
         allDigits.append(reminder)
-        current_number = current_number % 10
-
-    allDigits.append(int(current_number))
+        n = int(n / 10)
 
     return allDigits
-
 
 n = int(input())
 arrayOfDigits = getArrayOfDigits(n)
