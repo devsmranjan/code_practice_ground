@@ -1,11 +1,9 @@
 def getTotalDigits(n):
+    count = 0
 
-    current_number = n
-    count = 1
-
-    while current_number > 9:
+    while n != 0:
         count += 1
-        current_number = current_number / 10
+        n = int(n / 10)
 
     return count
 
