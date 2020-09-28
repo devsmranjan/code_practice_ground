@@ -13,9 +13,9 @@ def isPythagoreanTriplet(a, b, c):
     return pow(h, 2) == pow(p, 2) + pow(b, 2)
 
 
-inp = input()
-
-a, b, c = map(int, inp.split())
+a = int(input())
+b = int(input())
+c = int(input())
 
 if isPythagoreanTriplet(a, b, c):
     print("true")

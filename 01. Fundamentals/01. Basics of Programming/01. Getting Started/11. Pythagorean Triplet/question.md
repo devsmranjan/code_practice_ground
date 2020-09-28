@@ -33,7 +33,9 @@ true if the numbers form a pythagorean triplet and false otherwise
 ## Sample Input
 
 ```markdown
-5 3 4
+5
+3
+4
 ```
 
 ## Sample Output
