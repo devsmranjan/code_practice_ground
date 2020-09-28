@@ -1,10 +1,10 @@
-# Pattern 2
+# Pattern 1
 
 ## Question
 
 ```markdown
 1. You are given a number n.
-2. You've to create a pattern of \* and separated by tab as shown in output format.
+2. You've to create a pattern of * and separated by tab as shown in output format.
 ```
 
 ## Input Format
@@ -16,11 +16,11 @@ A number n
 ## Output Format
 
 ```markdown
--   -   -   -   -
--   -   -   -
--   -   -
--   -
--
+*	*	*	*	*	
+*	*	*	*	
+*	*	*	
+*	*	
+*
 ```
 
 ## Constraints
@@ -38,9 +38,9 @@ A number n
 ## Sample Output
 
 ```markdown
--   -   -   -   -
--   -   -   -
--   -   -
--   -
--
+*	*	*	*	*	
+*	*	*	*	
+*	*	*	
+*	*	
+*
 ```
